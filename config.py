@@ -44,7 +44,7 @@ class Config(object):
     
     # your telegram account id
     SEXI_MOD_OWNER_ID = int(os.environ.get("SEXI_MOD_OWNER_ID", "")) 
-    SEXI_MOD_SESSION_NAME = "UPLOADER-BOT"
+    SEXI_MOD_SESSION_NAME = ""
     
     # database uri (mongodb)
     SEXI_MOD_DATABASE_URL = os.environ.get("SEXI_MOD_DATABASE_URL", "")
