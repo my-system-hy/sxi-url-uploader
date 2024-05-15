@@ -58,7 +58,7 @@ class Config(object):
     SEXI_MOD_UPDATES_CHANNEL = int(SEXI_MOD_update_channel) if SEXI_MOD_update_channel and id_pattern.search(SEXI_MOD_update_channel) else None  
     
     # Url Shortner Information 
-    SEXI_MOD = bool(environ.get('SEXI_MOD', True)) # Set False If you want shortlink off else True
+    SEXI_MOD = bool(environ.get('SEXI_MOD', False)) # Set False If you want shortlink off else True
     SEXI_MOD_URL = environ.get('SEXI_MOD_URL', 'moneykamalo.com') # your shortlink url domain or url without https://
     SEXI_MOD_API = environ.get('SEXI_MOD_API', '0eefb93e1e3ce9470a7033115ceb1bad13a9d674') # your url shortner api
     SEXI_MOD_TUTORIAL = os.environ.get("SEXI_MOD_TUTORIAL", "https://t.me/How_To_Open_Linkl")
