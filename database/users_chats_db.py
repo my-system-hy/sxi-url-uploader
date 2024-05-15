@@ -1,7 +1,7 @@
 import motor.motor_asyncio
 from config import Config
 
-DATABASE_NAME = "sexi_mod"
+DATABASE_NAME = "SEXI_MOD"
 DATABASE_URI = Config.SEXI_MOD_DATABASE_URL
 
 class Database:
